@@ -75,6 +75,8 @@ void scanf_forinput(void)
   			tem = cross(firstnum, secondnum);
      		case 4:
        			tem = divide(firstnum, secondnum);
+		default:
+			
 
 
     	printf("\n 결과는 %d 입니다.", tem)
