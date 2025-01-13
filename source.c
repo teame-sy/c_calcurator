@@ -57,10 +57,20 @@ void scanf_forinput(void)
 	int nunbr;
 	printf("위 숫자 (사칙 연산 1-4번)중 할 것을 고르세요:");
 	scanf("", &nunbr);
-
+	int tem;
 	switch(nunbr)
 		case 1:
-			plus()
+			tem = plus(firstnum, secondnum);
+
+   		case 2:
+     			tem = minus(firstnum, secondnum);
+		case 3:
+  			tem = cross(firstnum, secondnum);
+     		case 4:
+       			tem = divide(firstnum, secondnum);
+
+
+    	printf("결과는 
 	
 
 
