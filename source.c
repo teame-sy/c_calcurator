@@ -69,14 +69,19 @@ void scanf_forinput(void)
 	switch(nunbr)
 		case 1:
 			tem = plus(firstnum, secondnum);
+			break;
    		case 2:
      			tem = minus(firstnum, secondnum);
+			break;
 		case 3:
   			tem = cross(firstnum, secondnum);
+			break;
      		case 4:
        			tem = divide(firstnum, secondnum);
+			break;
 		default:
-			
+			printf("프로그램을 다시 시작하세요.");
+			throw Error;
 
 
     	printf("\n 결과는 %d 입니다.", tem)
